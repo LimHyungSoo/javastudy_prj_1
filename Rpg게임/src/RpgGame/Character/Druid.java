@@ -11,8 +11,7 @@ public class Druid implements ICharcter {//implements 예약어는 인터페이�
 
 	@Override
 	public void Attack(String job) {
-	
-
+		Display.PrintIn(job, "공격했습니다.");
 	}
 
 	@Override
